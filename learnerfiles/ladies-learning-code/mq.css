@@ -1,0 +1,37 @@
+@media (max-width: 1000px) {
+  #wpadminbar { border-left:10px solid red !important; }
+  
+  .section {
+    padding:10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #wpadminbar { border-left:10px solid green !important; }
+
+  .left, .sidebar {
+    width:100%;
+    clear:both;
+  }
+
+  .hero {
+    padding:10px;
+  }
+
+  .homeColumn {
+    width:100%;
+  }
+
+}
+
+@media (max-width: 480px) {
+  #wpadminbar { border-left:10px solid yellow !important; }
+
+  .hero h1 {
+    font-size: 25px;
+  }
+
+  .hero h3 {
+    font-size: 20px;
+  }
+}
