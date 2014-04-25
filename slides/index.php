@@ -350,7 +350,7 @@
       </article>
 
       <article class="defs">
-        <p><strong>header.php</strong>- The footer that is appended at the bottom of every page </p>
+        <p><strong>header.php</strong>- The header that is appended at the bottom of every page </p>
         <!-- <p><strong>humans.txt</strong>-  </p> -->
         <!-- <p><strong>/i</strong>-  </p> -->
         <p><strong>index.php</strong>- The front page of your blog, displays the latest <em>n</em> posts  </p>
