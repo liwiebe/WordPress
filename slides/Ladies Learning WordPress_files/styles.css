@@ -25,7 +25,7 @@ body {
   height: 100%;
   min-height: 740px;
   
-  overflow-x: hidden;
+  overflow-x: hidden; removing due to excessive line snipping -lw
   overflow-y: auto;
 
   background: rgb(215, 215, 215);
@@ -381,7 +381,8 @@ h3 {
   line-height: 36px;
 
   padding: 0;
-  margin: 0;
+  margin:0;
+  margin-bottom: .5em;
   padding-right: 40px;
 
   font-weight: 600;
@@ -441,8 +442,8 @@ pre {
   
   letter-spacing: -1px;
 
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   color: black;
   background: rgb(240, 240, 240);

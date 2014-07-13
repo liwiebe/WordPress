@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0031)http://wesbos.com/llc/slides/#1 -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html><head><base target="_blank" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Ladies Learning WordPress</title>
 
     <meta charset="utf-8">
@@ -31,12 +31,12 @@
           <br>
           <b>Your Lead Instructor Today:</b> 
           <br>
-          Jack Giesen <a href="https://twitter.com/giesencreative">@giesencreative</a> and <a href="https://twitter.com/redmarkermedia">@redmarkermedia</a>
+          Lindsey Wiebe <a href="https://twitter.com/liwiebe">@liwiebe</a>
         </p>
       </article>
 
       <article class="next">
-     <h3>These Slides are available at <a href="http://www.ladieslearningcode.com/Workshops/20131118_Calgary_WordPress/learneremail.zip">http://www.ladieslearningcode.com/Workshops/20131118_Calgary_WordPress/learneremail.zip</a></h3> 
+     <h3>These Slides are available at <a href="http://www.ladieslearningcode.com/Workshops/20131118_Calgary_WordPress/learneremail.zip">http://www.ladieslearningcode.com/Workshops/<br />20131118_Calgary_WordPress/learneremail.zip</a></h3> 
         <p>They will always be up and always be updated! No real need to save them locally.</p>
       </article>
 
@@ -52,7 +52,7 @@
       </article>
 
             <article class="far-next">
-        <h3>Tomorrow</h3>
+        <h3>Wednesday</h3>
         <ul class="build">
           <li class="to-build">Understand the anatomy of a WordPress theme and how we use it to display content</li>
           <li class="to-build">Learn a little about CSS and alter the look of our theme</li>
@@ -78,7 +78,7 @@
       </article>
 
       <article id="vs" class="center">
-       <h1>WordPress.com vs. WordPress.org</h1>
+       <h3 class="large">WordPress.com vs. WordPress.org</h3>
        <div class="build">
         <p class="large to-build">WordPress.com is hosted for you - no servers or code required!</p>
         <p class="to-build">It doesn't allow for a lot of customization, though. No plugins or custom themes.</p>
@@ -91,8 +91,7 @@
         <h3>Code + Database = <span class="red padbottom">♥</span></h3>
          <div class="build">
           <img src="./Ladies Learning WordPress_files/Screen Shot 2011-11-21 at 10.07.51 PM.png" alt="" class="to-build">
-          <p class="to-build">The database holds our data and the code defines how and when the data is printed to the page</p>
-          <p class="to-build">The two work together to <span class="red">output HTML</span></p>
+          <p class="to-build">The database holds our data and the code prints it to the page. The two work together to <span class="red">output HTML</span></p>
           <p class="to-build"><span class="red">/wp-admin and /wp-includes</span> holds the engine of WordPress - we don't touch it.</p>
           <p class="to-build"><span class="red">/wp-content</span> holds our specific content like themes, plugins and image uploads.</p>
         </div>
@@ -132,11 +131,11 @@
         <p></p>
         <div class="build">
           <p class="to-build"><strong>Step 1</strong>: Unzip the WordPress package you downloaded and you'll have a folder called <span class="red">WordPress</span></p>
-          <p class="to-build"><strong>Step 2</strong>: Move that folder over to your local server (localhost)</p>
+          <p class="to-build"><strong>Step 2</strong>: Move that folder over to the <span class="red">htdocs</span> folder on your local server (localhost)</p>
           <p class="small to-build">TIP: Make sure you only have one folder called WordPress. You shouldn't have a folder called WordPress inside of one called WordPress!</p>
-          <p class="small to-build">If you need help finding the folder: <strong>Windows:</strong> Click WAMP icon in tray → <span class="red">www directory</span><strong> Mac: </strong>click MAMP icon → Preferences → Apache Tab </p>
+          <p class="small to-build">If you need help finding the folder: <strong>Windows:</strong> Click XAMPP icon in tray → <span class="red">explorer</span><strong> Mac: </strong>click MAMP icon → Preferences → Apache Tab </p>
           <p class="to-build"><strong>Step 3</strong>: Open up PHPmyadmin and create a database called <span class="red">llc</span></p>
-          <p class="small to-build"><strong>Windows:</strong> Go to <a href="http://localhost/" target="_blank">http://localhost</a> <strong>Mac: </strong>Go to <a href="http://localhost:8888/MAMP/" target="_blank">http://localhost:8888/MAMP/</a> <strong>Both:</strong> click PHPMyAdmin tab</p>
+          <p class="small to-build"><strong>Windows:</strong> Go to <a href="http://localhost/">http://localhost</a> <strong>Mac: </strong>Go to <a href="http://localhost:8888/MAMP/">http://localhost:8888/MAMP/</a> <strong>Both:</strong> click PHPMyAdmin link</p>
         </div>
       </article>
 
@@ -147,12 +146,12 @@
             <p class="to-build"><strong>Step 6</strong>: Change these settings:</p>
             <img src="./Ladies Learning WordPress_files/Screen Shot 2011-11-21 at 10.26.16 PM.png" alt="" class="to-build">
             <p class="small to-build"> <span class="red">Windows Users: Leave password blank.</span></p>
-            <p class="to-build"><strong>Step 6</strong>: Surf to <a href="http://localhost/wordpress" target="_blank">http://localhost/wordpress</a> or <a href="http://localhost:8888/wordpress" target="_blank">http://localhost:8888/wordpress</a> in Chrome (or your favorite browser like Firefox or IE10) and you're ready to install!</p>
+            <p class="to-build"><strong>Step 6</strong>: Surf to <a href="http://localhost/wordpress">http://localhost/wordpress</a> or <a href="http://localhost:8888/wordpress">http://localhost:8888/wordpress</a> in Chrome (or your favorite browser like Firefox or IE10) and you're ready to install!</p>
           </div>
       </article>
 
       <article>
-        <img src="./Ladies Learning WordPress_files/content" style="display:block; margin:0 auto;" alt="">
+        <img src="./Ladies Learning WordPress_files/content.png" style="display:block; margin:0 auto;" alt=""> <!--broken without file extension-->
       </article>
 
       <article class ="center">
@@ -173,7 +172,7 @@
         <h3>Adding some content...</h3>
           <p class="to-build"><strong>Posts</strong> are displayed most recent first and can be classified with tags and categories</p>
           <p class="to-build"><strong>Pages</strong> are static - they don't move and don't have dates assigned to them.</p>
-          <p class="to-build">Create <strong>7 posts</strong> and fill them up. Make sure to add a few tags and categories to each.<strong>tags/categories</strong> to each.</p>
+          <p class="to-build">Create <strong>7 posts</strong> and fill them up. Make sure to add a few <strong>tags/categories</strong> to each.</p>
           <p class="to-build">Create <strong>3 pages</strong> called Blog, Contact and Home</p>
           <p class="to-build">Here are some fun places you can get big chunks of text to use:</p>
           <p class="to-build"><a href="http://hipsteripsum.me/">hipsteripsum.me</a>,<a href="http://cupcakeipsum.com/">cupcakeipsum.com</a>,<a href="http://baconipsum.com/">baconipsum.com</a></p>
@@ -188,15 +187,15 @@
           <p class="to-build">1. Set your "home" page as your "front" page</p>
           <p class="to-build">2. Set your "blog" page as your "posts" page</p>
           <p class="to-build"><img src="./Ladies Learning WordPress_files/Screen Shot 2011-11-17 at 3.05.41 PM.png" alt=""></p>
-          <p class="to-build">Switch the number of posts to 5 <img src="./Ladies Learning WordPress_files/content(1)" alt=""> </p>
+          <p class="to-build">Switch the number of posts to 5 <img src="./Ladies Learning WordPress_files/content(1).png" alt=""> </p>
         </div>
       </article>
 
       <article>
         <div class="build">
         <p class="to-build"><strong>Permalinks</strong> are links (URL) that humans can actually read. Let's change this setting away from MySite.com/?p=54 to MySite.com/blog-title.</p>
-        <p class="small">Settings &gt; Permalinks</p>
-        <p class="to-build"><img src="./Ladies Learning WordPress_files/content(2)" alt=""></p>
+        <p class="small to-build">Settings &gt; Permalinks</p>
+        <p class="to-build"><img src="./Ladies Learning WordPress_files/content(2).png" alt=""></p>
       </div>
       </article>
 
@@ -215,7 +214,7 @@
       <article class="center" id="NO">
 <style type="text/css">#NO h3{ font-size:100px; padding-bottom: 70px;}</style>
         <h3>Warning!</h3>
-        <h4>Only install <strong>free themes</strong> WordPress.com/extend/themes or a reputable theme website</h4>
+        <h4>Only install <strong>free themes</strong> WordPress.org/extend/themes or a reputable theme website</h4>
         <h4>Many free theme websites are known to embed malicious code into the theme and can cause you to get hacked!</h4>
       </article>
 
@@ -223,10 +222,10 @@
       <article>
       <div class="build">
         <h3>Some good and trusted theme resources</h3>
-          <p class="to-build">Wordpress.org/extend/themes - All Free</p>
-          <p class="to-build">Themify.me Paid &amp; Free</p>
-          <p class="to-build">WooThemes.com - Paid and Free</p>
-          <p class="to-build">ThemeForest.net - Paid / Inexpensive</p>
+          <p class="to-build"><a href="http://wordpress.org/extend/themes">Wordpress.org/extend/themes</a> - All Free</p>
+          <p class="to-build"><a href="http://themify.me/">Themify.me</a> - Paid &amp; Free</p>
+          <p class="to-build"><a href="http://woothemes.com/">WooThemes.com</a> - Paid and Free</p>
+          <p class="to-build"><a href="http://themeforest.net/">ThemeForest.net</a> - Paid / Inexpensive</p>
         </div>
       </article>
 
@@ -284,7 +283,7 @@
         <p class="to-build">Widgets are modular items that can be added to your sidebar</p>
         <p class="to-build">How do we add one?</p>
         <p class="to-build">Let's add our latest tweets to our sidebar! Click the link below and log into your twitter account. Sit back if you aren't on twitter</p>
-        <p class="small"><a target="_blank" href="http://twitter.com/settings/widgets">http://twitter.com/settings/widgets</a></p>
+        <p class="small"><a href="http://twitter.com/settings/widgets">http://twitter.com/settings/widgets</a></p>
         <p class="to-build"><img src="./Ladies Learning WordPress_files/Screen Shot 2012-11-05 at 4.31.31 PM.png" alt=""></p>
       </div>
       </article>
@@ -376,21 +375,21 @@
         <h3>Let's try add a social networking plugin!</h3>
         <div class="build">
           <p class="to-build">Go to plugins → Add New and search for "addthis"</p>
-          <img src="./Ladies Learning WordPress_files/content(6)" class="to-build">
+          <img src="./Ladies Learning WordPress_files/content(6).png" class="to-build">
           <p class="to-build">Find the one that is called simply 'AddThis' and click install</p>
-          <img src="./Ladies Learning WordPress_files/content(7)" class="to-build">
+          <img src="./Ladies Learning WordPress_files/content(7).png" class="to-build">
         </div>
 
       </article>
 
       <article>
         <p>Finally, click Activate Plugin</p>
-        <img src="./Ladies Learning WordPress_files/content(8)">
+        <img src="./Ladies Learning WordPress_files/content(8).png">
       </article>
 
       <article>
         <p>The plugin will automatically add social buttons to your posts, but let's take a look at a few of the features</p>
-        <img src="./Ladies Learning WordPress_files/content(9)">
+        <img src="./Ladies Learning WordPress_files/content(9).png">
       </article>
 
 <!-- Plugin Exercise End --> 
@@ -717,15 +716,20 @@
       <article>
         <p>Your code should look something like this:</p>
         <br>
-        <img src="./Ladies Learning WordPress_files/content(3)" alt="">
+        <img src="./Ladies Learning WordPress_files/content(3).png" alt="">
       </article>
 
       <article>
         <div class="build">
           <p class="to-build"><strong>Step 3:</strong> We don't want a sidebar for this page, so go ahead and delete <span class="red">&lt;?php get_sidebar(); ?&gt;</span>. Make sure to save your file after this change! </p>
-          <p class="to-build"><strong>Step 4:</strong> Go to the WordPress dashboard, and edit your contact page</p>
+          <p class="to-build"><strong>Step 4:</strong> Go to the WordPress dashboard, and edit your contact page.</p>
+        </div>
+      </article>
+
+      <article>
+        <div class="build">
           <p class="to-build">Under "Page Attributes," you'll now see we have a template dropdown</p>
-          <p class="to-build"><img src="./Ladies Learning WordPress_files/content(4)" alt=""></p>
+          <p class="to-build"><img src="./Ladies Learning WordPress_files/content(4).png" alt=""></p>
           <p class="to-build">Select Contact Page and click update then view. <img src="./Ladies Learning WordPress_files/Screen Shot 2011-11-22 at 10.35.29 PM.png" alt=""></p>
         </div>
       </article>
@@ -744,7 +748,7 @@
       </article>
 
       <article>
-        <img src="./Ladies Learning WordPress_files/content(5)" style="" alt="">
+        <img src="./Ladies Learning WordPress_files/content(5).png" style="" alt="">
         <p>Edit your home page and assign the "Home Page Template" </p>
         <p>We will come back to this in our final exercise and build out a custom landing page!</p>
       </article>
