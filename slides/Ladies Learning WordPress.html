@@ -396,21 +396,85 @@
       </article>
 
 <!-- Plugin Exercise End --> 
+
+<!-- Day 1 review start -->
+      <article>
+        <h3>Day 1 review: installing Wordpress</h3>
+        <div class="build">
+          <p class="to-build"><strong>localhost</strong> acts like a web server, but on your own computer. It runs PHP and the database.</p>
+          <p class="to-build"><strong>Wordpress</strong> runs on your server and lives in /htdocs/wordpress/.</p>
+          <p class="to-build"><strong>/wordpress/wp-config.php</strong> tells Wordpress where it can find its database.</p>
+
+          <p class="to-build"><strong>Any time you want to create a Wordpress blog, you need to:</strong></p>
+          <p class="to-build">1. Create a database for it by using <strong>phpMyAdmin</strong></p>
+          <p class="to-build">2. Put the Wordpress folder into your server's <strong>htdocs</strong> folder</p>
+          <p class="to-build">3. Hook Wordpress up to the database by editing the <strong>wp-config.php</strong> file.</p>
+          <p class="to-build">4. Visit <strong>http://localhost/wordpress/</strong> to complete the installation.</p>
+        </div>
+      </article>
+
+      <article>
+        <h3>Day 1 review: the Wordpress dashboard</h3>
+        <div class="build">
+          <p class="to-build">Content like <strong>posts and pages</strong> are stored in the database and can be created, edited, and published in the Dashboard.</p>
+          <p class="to-build">The <strong>Settings</strong> area lets you control a lot of details about how your site looks and behaves.</p>
+          <p class="to-build"><strong>Themes</strong> give you a lot MORE control over how your site looks and behaves.</p>
+          <p class="to-build"><strong>Widgets</strong> let you easily add content to special areas, like the <strong>sidebar</strong>, that appear on many different pages in your site.</p>
+          <p class="to-build"><strong>Plug-Ins</strong> let you add new functionality to your site. Some examples are new widgets, new things in your dashboard, and new ways for users to interact with your site.</p>
+        </div>
+      </article>
+
+      <article class="far-next">
+        <h3>Today</h3>
+        <ul class="build">
+          <li class="to-build">Understand the anatomy of a WordPress theme and how we use it to display content</li>
+          <li class="to-build">Learn a little about CSS and alter the look of our theme</li>
+          <li class="to-build">Hack our theme!</li>
+          <li class="to-build">Final Exercise</li>
+        </ul>
+      </article>
+<!-- Day 1 review end -->
+
 <!-- PHP and wp-content files Start -->
+
+      <article>
+        <h3>HTML 101</h3>
+        <div class="build">
+          <p class="to-build">HTML stands for "hyper-text markup language" and it's the main language your browser understands.</p>
+          <p class="to-build">HTML works by "marking up" your text with tags that explain what that text is.</p>
+          <p class="to-build">Many tags come in pairs that show the beginning and end of a particlar item. <strong>&lt;p&gt;</strong> starts a paragraph, and <strong>&lt;/p&gt;</strong> ends it.</p>
+          <p class="to-build">Many tags contain different attributes inside them that give the browser instructions. For example, <strong>&lt;img src="myimage.gif"&gt;</strong> inserts the image that's in the same folder and is called myimage.gif.</p>
+          </div>
+        </article>
+
+        <article>
+          <h3>Some common HTML tags</h3>
+          <div class="build">
+            <p class="to-build"><strong>&lt;div&gt;</strong> wraps a bunch of content into an invisible container and ends it with <strong>&lt;/div&gt;</strong></p>
+            <p class="to-build"><strong>&lt;a href="target.php"&gt;</strong>this is a link<strong>&lt;/a&gt;</strong> that goes to target.php</p>
+            <p class="to-build"><strong>&lt;h1&gt;</strong>a big header<strong>&lt;/h1&gt;</strong>, <strong>&lt;h2&gt;</strong>a slightly smaller header<strong>&lt;/h2&gt;</strong>, etc.</p>
+            <p class="to-build">An Unordered list is made up of two parts:<br>
+              <strong>&lt;ul&gt;</strong>
+              <div class="to-build" style="padding-left:1em;"><strong>&lt;li&gt;</strong>List Item<strong>&lt;/li&gt;</strong><br><strong>&lt;li&gt;</strong>List Item<strong>&lt;/li&gt;</strong><br><strong>&lt;li&gt;</strong>List Item<strong>&lt;/li&gt;</strong></div>
+              <strong>&lt;/ul&gt;</strong></p>
+          </div>
+        </article>
 
       <article>
         <div class="build">
         <h3>PHP</h3>
           <p class="to-build">You've probably noticed that a lot of files in your WordPress folders end with ".php"</p>
           <p class="to-build"><strong>PHP</strong> is the programming language WordPress is written in</p>
-          <p class="to-build"><strong>PHP tags:</strong> When we need to use PHP, we put it inside &lt;?php and ?&gt; tags so our server will know to process it as PHP</p>
+          <p class="to-build"><strong>PHP tags:</strong> When we need to use PHP, we put it inside <span class="red" style="display:inline-block;">&lt;?php</span> and <span class="red" style="display:inline-block;">?&gt;</span> tags so our server will know to process it as PHP</p>
         </div>
       </article>       
 
       <article>
         <div class="build">
-        <h3>Let's look at our wp-content files</h3>
-          <p class="to-build">Different pages can be displayed with different layouts</p>
+        <h3>How Wordpress builds each page</h3>
+          <p class="to-build">Every page has a layout that comes from your theme.</p>
+          <p class="to-build">The layout gets filled with content from your database.</p>
+          <p class="to-build">Your theme can have many different layouts, and each option lives in a <strong>template file</strong> made out of HTML and PHP.</p>
           <p class="to-build">Example: your home page (index.php) might look different than your category page (category.php)</p>
           <p class="to-build">Let's take a look at some of the more important template files in our theme</p>
         </div>
