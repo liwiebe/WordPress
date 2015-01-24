@@ -63,7 +63,7 @@ body {
 
 a {
   color:#D12028; /* <-- Change the link colour here! */
-  text-decoration: none;
+  text-decoration:none;
 }
 
 .innerWrapper {
